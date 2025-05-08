@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Typography, Button, Box } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import TodoForm from '../Components/TodoForm';
-import TodoList from '../Components/TodoList';
+import TodoForm from '../components/TodoForm';
+import TodoList from '../components/TodoList';
 
 const Dashboard = () => {
   const navigate = useNavigate();
